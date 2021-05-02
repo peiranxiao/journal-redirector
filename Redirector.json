@@ -1,0 +1,108 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2021-05-02T06:46:50.980Z",
+    "redirects": [
+        {
+            "description": "Example redirect, try going to http://example.com/anywordhere",
+            "exampleUrl": "http://example.com/some-word-that-matches-wildcard",
+            "exampleResult": "https://google.com/search?q=some-word-that-matches-wildcard",
+            "error": null,
+            "includePattern": "http://example.com/*",
+            "excludePattern": "",
+            "patternDesc": "Any word after example.com leads to google search for that word.",
+            "redirectUrl": "https://google.com/search?q=$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "AEA",
+            "exampleUrl": "https://www.aeaweb.org/articles?id=10.1257/mic.3.2.114",
+            "exampleResult": "https://www-aeaweb-org.ezproxy.bu.edu/articles?id=10.1257/mic.3.2.114",
+            "error": null,
+            "includePattern": "https://*aeaweb.org/articles*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www-aeaweb-org.ezproxy.bu.edu/articles$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Wiley",
+            "exampleUrl": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA15510",
+            "exampleResult": "https://onlinelibrary-wiley-com.ezproxy.bu.edu/doi/10.3982/ECTA15510",
+            "error": null,
+            "includePattern": "https://*onlinelibrary.wiley.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://onlinelibrary-wiley-com.ezproxy.bu.edu/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "QJE RES",
+            "exampleUrl": "https://academic.oup.com/qje/article-abstract/131/4/1637/2468871",
+            "exampleResult": "https://academic-oup-com.ezproxy.bu.edu/qje/article-abstract/131/4/1637/2468871",
+            "error": null,
+            "includePattern": "https://*academic.oup.com/*/article*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://academic-oup-com.ezproxy.bu.edu/$2/article$3",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "JPE",
+            "exampleUrl": "https://www.journals.uchicago.edu/doi/10.1086/713100",
+            "exampleResult": "https://www-journals-uchicago-edu.ezproxy.bu.edu/doi/10.1086/713100",
+            "error": null,
+            "includePattern": "https://*journals.uchicago.edu/doi/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www-journals-uchicago-edu.ezproxy.bu.edu/doi/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "NBER",
+            "exampleUrl": "https://www.nber.org/papers/w26530",
+            "exampleResult": "https://www-nber-org.ezproxy.bu.edu/papers/w26530",
+            "error": null,
+            "includePattern": "https://*nber.org/papers/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www-nber-org.ezproxy.bu.edu/papers/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
