@@ -6,7 +6,7 @@ When you click on a link to a paper on Google or in a file (e.g., the link above
 Here is how to configure initially:
 - Step 1: Download the Redirector extension from the Chrome web store (offered by Einar Egilsson): https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd (Add to Chrome).
 - Step 2: Download ``Redirector.json`` from this repo.
-- Step 3: Replace all ``ezproxy.bu.edu`` with the prefix of your institution's proxy server, e.g., ``libproxy.berkeley.edu``, which can be found by accessing the journal website from your institution's library.
+- Step 3: Replace all ``ezproxy.bu.edu`` in the JSON file with the prefix of your institution's proxy server, e.g., ``libproxy.berkeley.edu``, which can be found by accessing the journal website from your institution's library.
 - Step 4: Import this JSON file to the Redirector extension by clicking on its icon (located at the top-right corner) and then choosing "Edit Redirect" and "Import."
 
 Finally, Try clicking on the links given below to see if they are redirected properly:
