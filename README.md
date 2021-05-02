@@ -6,7 +6,7 @@ When you Google or click on a link to a paper (e.g., http://www.aeaweb.org/artic
 - Step 1: Download the Redirector extension from the Chrome web store: https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd (Add to Chrome).
 - Step 2: Download Redirector.json from this repo.
 - Step 3: Replace all "ezproxy.bu.edu" with the suffix of your institution, e.g., "libproxy.berkeley.edu," which can be found by browsing the journal website from your institution's library.
-- Step 4: Import this JSON file to the Redirector extension by clicking on it (located at the top-right corner) and then choosing "Edit Redirect" and "Import."
+- Step 4: Import this JSON file to the Redirector extension by clicking on its icon (located at the top-right corner) and then choosing "Edit Redirect" and "Import."
 
 Finally, Try clicking on some links given above and see if they are redirected properly.
 
