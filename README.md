@@ -4,7 +4,7 @@ Redirect journal websites to the proxy server of your institution in Chrome. E.g
 When you Google or click on a link to a paper (e.g., http://www.aeaweb.org/articles.php?doi=10.1257/mic.3.2.114), more often than not, you are unable to download it directly even though your institution has a subscription (worse still, Institutional Login/Access through your Institution option often won't work). This method saves you the hassle of searching it again on your institution's library or proxy server.
 
 - Step 1: Download the Redirector extension from the Chrome web store: https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd (Add to Chrome).
-- Step 2: Download Redirector.json from this repo.
+- Step 2: Download ``Redirector.json`` from this repo.
 - Step 3: Replace all "ezproxy.bu.edu" with the prefix of your institution, e.g., "libproxy.berkeley.edu," which can be found by browsing the journal website from your institution's library.
 - Step 4: Import this JSON file to the Redirector extension by clicking on its icon (located at the top-right corner) and then choosing "Edit Redirect" and "Import."
 
