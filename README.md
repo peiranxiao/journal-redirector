@@ -10,5 +10,5 @@ When you Google or click on a link to a paper (e.g., http://www.aeaweb.org/artic
 
 Finally, Try clicking on some links given above and see if they are redirected properly.
 
-Currently, it can redirect papers on all AEA journals, JPE, RES and QJE (Academic OUP), ECTA (Wiley), and NBER. Elsevier Journals (e.g., JET, GEB) are not included because the "Access through your institution" option works well.
+Currently, it can redirect papers on all AEA journals, Academic OUP (RES, QJE, JEEA, etc.), Wiley (ECTA), JPE, and NBER. Elsevier Journals (e.g., JET, GEB) are not included because the "Access through your institution" option works well.
 
