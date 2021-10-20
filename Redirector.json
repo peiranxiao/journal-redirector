@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2021-05-02T06:46:50.980Z",
+    "createdAt": "2021-10-20T02:56:42.518Z",
     "redirects": [
         {
             "description": "Example redirect, try going to http://example.com/anywordhere",
@@ -58,10 +58,10 @@
             "exampleUrl": "https://academic.oup.com/qje/article-abstract/131/4/1637/2468871",
             "exampleResult": "https://academic-oup-com.ezproxy.bu.edu/qje/article-abstract/131/4/1637/2468871",
             "error": null,
-            "includePattern": "https://*academic.oup.com/*/article*",
+            "includePattern": "https://*academic.oup.com/*/*article*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://academic-oup-com.ezproxy.bu.edu/$2/article$3",
+            "redirectUrl": "https://academic-oup-com.ezproxy.bu.edu/$2/$3article$4",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -90,12 +90,29 @@
         {
             "description": "NBER",
             "exampleUrl": "https://www.nber.org/papers/w26530",
-            "exampleResult": "https://www-nber-org.ezproxy.bu.edu/papers/w26530",
+            "exampleResult": "https://www-nber-org.libproxy.mit.edu/papers/w26530",
             "error": null,
             "includePattern": "https://*nber.org/papers/*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://www-nber-org.ezproxy.bu.edu/papers/$2",
+            "redirectUrl": "https://www-nber-org.libproxy.mit.edu/papers/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "ARE",
+            "exampleUrl": "https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025616",
+            "exampleResult": "https://www-annualreviews-org.ezproxy.bu.edu/doi/abs/10.1146/annurev-economics-080218-025616",
+            "error": null,
+            "includePattern": "https://www.annualreviews.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www-annualreviews-org.ezproxy.bu.edu/$1",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
