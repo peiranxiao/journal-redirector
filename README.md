@@ -12,4 +12,4 @@ Here is how to configure initially:
 Finally, Try clicking on the links given below to see if they are redirected properly:
 https://onlinelibrary.wiley.com/doi/10.3982/ECTA15510, http://www.aeaweb.org/articles.php?doi=10.1257/mic.3.2.114, https://www.journals.uchicago.edu/doi/10.1086/710560, https://www.nber.org/papers/w28583. The extension could be disabled or removed at any time.
 
-Currently, it can redirect papers on all AEA journals, Academic OUP (RES, QJE, JEEA), Wiley (ECTA, RAND), JPE, and NBER. Elsevier journals (e.g., JET, GEB) don't need this because the "Access through your institution" option works well.
+Currently, it can redirect papers on all AEA journals, Academic OUP (e.g., RES, QJE, JEEA), Wiley (e.g., ECTA, RAND), JPE, JSTOR, ARE, and NBER. Elsevier journals (e.g., JET, GEB) don't need this because the "Access through your institution" option works well.

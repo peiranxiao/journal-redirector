@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2021-10-20T02:56:42.518Z",
+    "createdAt": "2022-03-03T05:29:50.326Z",
     "redirects": [
         {
             "description": "Example redirect, try going to http://example.com/anywordhere",
@@ -109,10 +109,27 @@
             "exampleUrl": "https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025616",
             "exampleResult": "https://www-annualreviews-org.ezproxy.bu.edu/doi/abs/10.1146/annurev-economics-080218-025616",
             "error": null,
-            "includePattern": "https://www.annualreviews.org/*",
+            "includePattern": "https://*annualreviews.org/*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://www-annualreviews-org.ezproxy.bu.edu/$1",
+            "redirectUrl": "https://www-annualreviews-org.ezproxy.bu.edu/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "JSTOR",
+            "exampleUrl": "https://www.jstor.org/stable/2648728",
+            "exampleResult": "https://www-jstor-org.ezproxy.bu.edu/stable/2648728",
+            "error": null,
+            "includePattern": "https://*jstor.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www-jstor-org.ezproxy.bu.edu/$2",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
