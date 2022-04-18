@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2022-03-03T05:29:50.326Z",
+    "createdAt": "2022-04-18T06:56:51.346Z",
     "redirects": [
         {
             "description": "Example redirect, try going to http://example.com/anywordhere",
@@ -130,6 +130,23 @@
             "excludePattern": "",
             "patternDesc": "",
             "redirectUrl": "https://www-jstor-org.ezproxy.bu.edu/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Springer",
+            "exampleUrl": "https://link.springer.com/article/10.1007/s00199-021-01346-9",
+            "exampleResult": "https://link-springer-com.ezproxy.bu.edu/article/10.1007/s00199-021-01346-9",
+            "error": null,
+            "includePattern": "https://*link.springer.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://link-springer-com.ezproxy.bu.edu/$2",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
