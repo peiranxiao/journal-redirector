@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2022-04-18T06:56:51.346Z",
+    "createdAt": "2022-07-18T00:37:14.861Z",
     "redirects": [
         {
             "description": "Example redirect, try going to http://example.com/anywordhere",
@@ -147,6 +147,23 @@
             "excludePattern": "",
             "patternDesc": "",
             "redirectUrl": "https://link-springer-com.ezproxy.bu.edu/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Taylor",
+            "exampleUrl": "https://www.tandfonline.com/doi/abs/10.1080/01621459.2017.1375934?journalCode=uasa20",
+            "exampleResult": "https://www-tandfonline-com.ezproxy.bu.edu/doi/abs/10.1080/01621459.2017.1375934?journalCode=uasa20",
+            "error": null,
+            "includePattern": "https://*tandfonline.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www-tandfonline-com.ezproxy.bu.edu/$2",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
