@@ -171,6 +171,23 @@
             "appliesTo": [
                 "main_frame"
             ]
+        },
+        {
+            "description": "Science",
+            "exampleUrl": "https://www.science.org/doi/10.1126/science.1158860?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed",
+            "exampleResult": "https://www-science-org.ezproxy.bu.edu/doi/10.1126/science.1158860?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed",
+            "error": null,
+            "includePattern": "https://*science.org/doi/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www-science-org.ezproxy.bu.edu/doi/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
         }
     ]
 }
