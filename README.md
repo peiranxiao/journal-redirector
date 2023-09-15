@@ -19,4 +19,4 @@ Currently, it can redirect papers on all AEA journals, Academic OUP (e.g., RES, 
 ## Alternative methods
 Recently, I found the Zotero extension also does the job, but its configuration is less programmable as it does not support JSON import.
 
-Moreover, the EZProxy Redirect extension (https://chrome.google.com/webstore/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi) works similarly. One needs to configure the institution(s) first and click on the extension *every time* to redirect websites. It is a good complement to Redirector (particularly useful if you have multiple institutional accounts), and I use it as an ad hoc method to redirect websites not on my list. 
+Moreover, the EZProxy Redirect extension (https://chrome.google.com/webstore/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi) works similarly. One needs to configure the institution(s) first and click on the extension *every time* to redirect websites. It is a good complement to Redirector (particularly useful if you have multiple institutional accounts) though, and I use it as an ad hoc method to redirect websites not on my list. 
