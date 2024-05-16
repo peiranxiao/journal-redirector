@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2023-05-03T04:26:40.414Z",
+    "createdAt": "2024-05-13T20:45:24.378Z",
     "redirects": [
         {
             "description": "Example redirect, try going to http://example.com/anywordhere",
@@ -62,6 +62,23 @@
             "excludePattern": "",
             "patternDesc": "",
             "redirectUrl": "https://academic-oup-com.ezproxy.bu.edu/$2/$3article$4",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "QJE RES",
+            "exampleUrl": "https://academic.oup.com/rfs/article-abstract/28/10/2859/1580557",
+            "exampleResult": "https://ezproxy.bu.edu/login?url=https://academic.oup.com/rfs/article-abstract/28/10/2859/1580557",
+            "error": null,
+            "includePattern": "https://*academic.oup.com/*/*article*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://ezproxy.bu.edu/login?url=https://$1academic.oup.com/$2/$3article$4",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
